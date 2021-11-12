@@ -1,0 +1,72 @@
+html, body, header, .view{
+    height: 100%;
+    font-family: sans-serif, 'josefin sans';
+    scroll-behavior: smooth;
+}
+
+.index{
+    background: url(../img/doc.jpeg);
+    background-size: cover;
+}
+.registro{
+    background: url(../img/doca.jpeg);
+    background-size: cover;
+}
+.contacto{
+    background: url(../img/contact.jpeg);
+    background-size: cover;
+}
+.home{
+    height: 25%;
+}
+.acerca{
+    background: url(../img/doctores.jpeg);
+    background-size: cover;
+}
+.homeb{
+    background: url(../img/home.jpeg);
+    background-size: cover;
+}
+.nav-link{
+    color: white;
+    font-size: large;
+}
+.nav-link:hover, .nav-link:focus{
+    color: #00bfff;
+}
+/* Despues de scroll */
+.scrolling-active{
+    background: white;
+}
+.scrolling-active .nav-link{
+    color: black;
+}
+.scrolling-active .nav-link:hover, .nav-link:focus{
+    color: #00bfff;
+}
+.btn{
+    background-color: white;
+    font-weight: bold;
+}
+footer{
+    background: #4682b4;
+}
+p{
+    font-size: 18px;
+    text-align: justify;
+}
+h1{
+    color: rgb(12, 12, 150);
+}
+.chatHistory{
+    min-height: 600px;
+    width: 600px;
+    margin: 10px auto;
+    padding: 10px;
+}
+.txtarea{
+    min-height: 200px;
+    width: 300px;
+    margin: 10px auto;
+    padding: 10px;
+}
